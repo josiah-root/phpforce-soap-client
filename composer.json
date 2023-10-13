@@ -11,9 +11,15 @@
             "homepage": "http://ddeboer.nl"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/josiah-root/phpforce-common.git"
+        }
+      ],
     "require": {
         "php": ">=5.3.0",
-        "phpforce/common": "dev-master",
+        "josiah-root/phpforce-common": "dev-master",
         "psr/log": "*"
     },
     "require-dev": {
